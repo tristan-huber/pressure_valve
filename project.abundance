@@ -1,13 +1,324 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "pressure_valve",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "pressure_valve",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Circle",
+      "x": 0.1,
+      "y": 0.5,
+      "uniqueID": "id-17",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 0.5,
+          "currentEquation": "0.5"
+        }
+      ]
+    },
+    {
+      "atomType": "Output",
+      "x": 1,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2,
+      "y": 0.4,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.25,
+          "currentEquation": "0.25"
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.1,
+      "y": 0.7,
+      "uniqueID": "id-24",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 1,
+          "currentEquation": "1"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.2,
+      "y": 0.7,
+      "uniqueID": "id-27",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0.25
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3,
+      "y": 0.7,
+      "uniqueID": "id-33",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.3,
+          "currentEquation": "0.3"
+        }
+      ]
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.5,
+      "y": 0.7,
+      "uniqueID": "id-4",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "Pressure valve",
+          "currentEquation": "Pressure valve"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 0.5
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 6
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://www.amazon.com/dp/B0FJ654QSP/ref=sspa_dk_detail_1?pd_rd_i=B0FJ654QSP&pd_rd_w=puq7T&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=EKK4WCV9T0TYETAMVBVF&pd_rd_wg=2dNrp&pd_rd_r=5b419ad3-a55e-426e-b7dc-524909d9ccf3&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1",
+          "currentEquation": "https://www.amazon.com/dp/B0FJ654QSP/ref=sspa_dk_detail_1?pd_rd_i=B0FJ654QSP&pd_rd_w=puq7T&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=EKK4WCV9T0TYETAMVBVF&pd_rd_wg=2dNrp&pd_rd_r=5b419ad3-a55e-426e-b7dc-524909d9ccf3&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "Pressure valve",
+        "numberNeeded": 0.5,
+        "costUSD": 6,
+        "source": "https://www.amazon.com/dp/B0FJ654QSP/ref=sspa_dk_detail_1?pd_rd_i=B0FJ654QSP&pd_rd_w=puq7T&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=EKK4WCV9T0TYETAMVBVF&pd_rd_wg=2dNrp&pd_rd_r=5b419ad3-a55e-426e-b7dc-524909d9ccf3&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1"
+      }
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.4,
+      "y": 0.5,
+      "uniqueID": "id-44",
+      "name": "Above",
+      "ioValues": [
+        {
+          "name": "B",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "A",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 1,
+          "y": 0.5,
+          "uniqueID": "id-38",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.1,
+          "uniqueID": "id-39",
+          "name": "B",
+          "type": "geometry",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0,
+          "y": 0.2,
+          "uniqueID": "id-40",
+          "name": "A",
+          "type": "geometry",
+          "options": []
+        },
+        {
+          "atomType": "Code",
+          "x": 0.4,
+          "y": 0.5,
+          "uniqueID": "id-41",
+          "ioValues": [
+            {
+              "name": "A",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "B",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "interpreterVersion": 0,
+          "code": "\n      Inputs = [\n       {inputName: \"A\", type: \"geometry\", defaultValue: null},\n        {inputName: \"B\", type: \"geometry\", defaultValue: null}\n      ]\n      //This defines the molecules inputs and creates variables with the same names which can be referenced in the code\n\n      let boundsA = await GetBounds(A);\n      let A_minZ = boundsA.min[2];\n\n      let B_maxZ = 0;\n      if(B){\n          let boundsB = await GetBounds(B);\n          console.log(\"Bounding Box B:  \");\n          console.log(boundsB);\n          B_maxZ  = boundsB.max[2];\n      }\n\n     let translationZ = B_maxZ - A_minZ;\n     \n      let movedOutput = await Move(A, 0, 0, translationZ);\n\n      return movedOutput;\n\n      // //We can also create a new shape from scratch\n      // let createdRectangle = replicad.drawRectangle(5,7)\n      // //This is the plane we are going to put our new shape on\n      // const newPlane = new replicad.Plane().pivot(0, 'Y');\n      // //And we extrude the shape to make it 3D\n      // let createdShape = createdRectangle.sketchOnPlane(newPlane).extrude(height)\n\n      // //For our new geometry we need to define the tags, color, plane, etc\n      // let shape2 = {\n      //     geometry: [createdShape],\n      //     tags: [\"aTag\"],\n      //     color: '#A3CE5B',\n      //     plane: newPlane,\n      //     bom: []\n      // }\n\n      // //Then we can return our created shape in just the same way\n      // //return shape2\n\n      // //If we want to return both shapes at once, we can create an assembly with them\n      // let anAssembly = {\n      //   geometry: [shape1, shape2],\n      //   tags: [\"aNewTag\"],\n      //   color: '#A3CF5B',\n      //   plane: newPlane,\n      //   bom: []\n      // }\n\n      // //And we can return that in the same way\n      // return anAssembly\n\n      /**\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n      If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0]\n      Use any replicad available methods to modify your geometry. Learn more about all of the available methods at\n      https://replicad.xyz/docs/introapp/UserGuide.html\n      Return a replicad object that includes geometry, color, tags and plane.\n\n      Example Code Atom:\n        Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let finalShape = library[shape].geometry[0].clone().translate([x,0,0])\n        return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n      */\n      "
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2,
+          "y": 0.8,
+          "uniqueID": "id-42",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3,
+          "y": 0.8,
+          "uniqueID": "id-43",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 9
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "B",
+          "ap1ID": "id-39",
+          "ap2ID": "id-41"
+        },
+        {
+          "ap2Name": "A",
+          "ap1ID": "id-40",
+          "ap2ID": "id-41"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-41",
+          "ap2ID": "id-38"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-42",
+          "ap2ID": "id-43"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-09-20T02:23:39.099Z",
+        "privateRepo": false,
+        "repoName": "Above",
+        "dateCreated": "2025-09-22T22:39:35Z",
+        "likes": 0,
+        "pngURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.png?sanitize=true",
+        "readme": "https://raw.githubusercontent.com/BarbourSmith/Above/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "",
+        "userRanking": 0,
+        "userSetAsThumbnail": false,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/BarbourSmith/Above",
+        "topics": [],
+        "pullRequests": [],
+        "forks": 0,
+        "dateModified": "2025-12-19T18:51:02Z",
+        "ranking": 2,
+        "searchField": "above barboursmith takes two inputs and moves input a in the z-axis direction so that it ends up above b as defined by their bounding boxes ",
+        "owner": "BarbourSmith",
+        "description": "Takes two inputs and moves input A in the Z-axis direction so that it ends up Above B as defined by their bounding boxes",
+        "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Above/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1790621356552
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-17",
+      "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "B",
+      "ap1ID": "id-20",
+      "ap2ID": "id-44"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-24",
+      "ap2ID": "id-27"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-24",
+      "ap2ID": "id-33"
+    },
+    {
+      "ap2Name": "A",
+      "ap1ID": "id-33",
+      "ap2ID": "id-44"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
