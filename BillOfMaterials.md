@@ -2,4 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Pressure valve|0.5|$6.00|[Amazon](https://www.amazon.com/dp/B0FJ654QSP/ref=sspa_dk_detail_1?pd_rd_i=B0FJ654QSP&pd_rd_w=puq7T&content-id=amzn1.sym.17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_p=17345c9b-ef8c-4a79-bcd9-8894b1e1e0ea&pf_rd_r=EKK4WCV9T0TYETAMVBVF&pd_rd_wg=2dNrp&pd_rd_r=5b419ad3-a55e-426e-b7dc-524909d9ccf3&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw&th=1?tag=maslowcnc01-20)|
+|Total: |0.5|$6.00| |
